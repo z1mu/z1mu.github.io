@@ -57,5 +57,5 @@ jobs:
         script: |
           cd /www/wwwroot/
           git clone https://github.com/z1mu/z1mu.github.io.git hexo_temp
-          mv -f hexo_temp/* hexo/
+          cp -rf hexo_temp/* hexo/
           rm -rf hexo_temp/
