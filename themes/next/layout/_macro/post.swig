@@ -8,6 +8,7 @@
       <meta itemprop="image" content="{{ url_for(theme.avatar.url or theme.images + '/avatar.gif') }}">
       <meta itemprop="name" content="{{ author }}">
       <meta itemprop="description" content="{{ description }}">
+      <meta name="referrer" content="no-referrer" />
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
