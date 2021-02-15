@@ -118,3 +118,6 @@ photoswipe:
   imgSrcIn: dataOriginal
   className: image-container
   dataType: content-image
+
+aplayer:
+  meting: true

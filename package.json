@@ -12,7 +12,8 @@
   },
   "hexo": {
     "version": "5.3.0"
-  },"yuqueConfig": {
+  },
+  "yuqueConfig": {
     "postPath": "source/_posts/yuque",
     "cachePath": "yuque.json",
     "mdNameFormat": "title",
@@ -36,6 +37,7 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-landscape": "^0.0.3"
   },
   "devDependencies": {
