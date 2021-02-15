@@ -38,7 +38,7 @@ jobs:
 
     - name: Deploy blog
       run: |
-        git clone https://z1mu:${{ secrets.GH_PWD }}@github.com/darkb1rd/blog.git deploy_git
+        git clone https://z1mu:${{ secrets.GH_PWD }}@github.com/z1mu/blog.git deploy_git
         mv ./deploy_git/.git ./public/
         cd ./public
         git config user.name "z1mu"
